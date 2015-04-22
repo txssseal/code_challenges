@@ -20,16 +20,16 @@ end
 #start = Time.now
 #puts start
 
-#def solution(s)
-#	s.gsub!(/\s/,'')
-#	s.downcase!
-#    if s == s.reverse
-#    	puts 1
-#    else
-#    	puts 0
-#    end
-#    puts s
-#end
+def solution(s)
+	s.gsub!(/\s/,'')
+	s.downcase!
+    if s == s.reverse
+    	puts 1
+    else
+    	puts 0
+    end
+    puts s
+end
 
 
 #solution(" Dennis Nell Edna Leon Nedra Anita Rolf Nora Alice Carol Leo Jane Reed Dena Dale Basil Rae Penny Lana Dave Denny Lena Ida Bernadette Ben Ray Lila Nina Jo Ira Mara Sara Mario Jan Ina Lily Arne Bette Dan Reba Diane Lynn Ed Eva Dana Lynne Pearl Isabel Ada Ned Dee Rena Joel Lora Cecil Aaron Flora Tina Arden Noel and Ellen sinned")
@@ -60,7 +60,6 @@ count.to_i
 return count
 end
 =end
-
 #solution(1, )
 
 #stop = Time.now
